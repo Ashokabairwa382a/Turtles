@@ -98,7 +98,7 @@ c = ['snow', 'ghost white', 'white smoke', 'gainsboro', 'floral white', 'old lac
 #t1.color("white")
 t1.pensize(2)
 for i in range(0,360):
- t1.color(c[i])
+ t1.color(c[100])
  t1.circle(125)
  t1.lt(1.5)
  #print(i)

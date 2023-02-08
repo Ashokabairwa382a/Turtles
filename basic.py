@@ -2,7 +2,7 @@
 
 # print(my_str)
 
-import turtle 
-wn = turtle.screen()
+import turtle
+wn = Turtle.screen()
 wn.bgcolor('blue')
 turtle.done()

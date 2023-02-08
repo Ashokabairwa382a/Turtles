@@ -5,7 +5,7 @@ import turtle
 screen = turtle.Screen()
 
 # Screen configurationusr/local/lib/python3.10/dist-
-screen.setup(500, 500)
+screen.setup(600, 600)
 
 # Make turtle Object
 clk = turtle.Turtle()

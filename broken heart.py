@@ -1,9 +1,9 @@
 import turtle
 
-s = turtle.Screen().bgcolor("black")
+s = turtle.Screen().bgcolor("yellow")
 t = turtle.Turtle()
-t.speed(3)
-t.width(12)
+t.speed(3000)
+t.width(20)
 
 def curve():
     for i in range (200):
@@ -11,7 +11,7 @@ def curve():
         t.forward(1)
 
 def heart():
-    t.color("red","red")
+    t.color("black","grey")
     t.begin_fill()
     t.left(140)
     t.forward(113)

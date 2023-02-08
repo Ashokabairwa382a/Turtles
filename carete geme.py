@@ -26,7 +26,7 @@ def animate():
         state['turn']-=1
 
     spinner()
-    ontimer(animate, 10)
+    ontimer(animate, 1000)
 def flick():
     state['turn']+=10
 
